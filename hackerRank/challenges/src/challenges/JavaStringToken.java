@@ -20,8 +20,8 @@ public class JavaStringToken {
 	
 	public static void output(String s) {
 		s = s.trim();
-		System.out.println("'" + s + "'");
-		System.out.println("'" + s.substring(0, s.length()) + "'");
+//		System.out.println("'" + s + "'");
+//		System.out.println("'" + s.substring(0, s.length()) + "'");
 		if(s.isEmpty()) {
 			System.out.println(0);
 		}else {
