@@ -26,17 +26,17 @@ public class JavaArraylist {
 //			rows--;
 //		}
 		
-		int[][] table = new int[rows][];
-		
-		int iterator = 0;
-		
-		while(iterator != rows) {
-			int rowLength = scan.nextInt();
-			for(int i = 0; i < rowLength; i++) {
-				table[iterator][i].add(scan.nextInt());
-			}
-			
-			iterator++;
-		}
+//		int[][] table = new int[rows][];
+//		
+//		int iterator = 0;
+//		
+//		while(iterator != rows) {
+//			int rowLength = scan.nextInt();
+//			for(int i = 0; i < rowLength; i++) {
+//				table[iterator][i].add(scan.nextInt());
+//			}
+//			
+//			iterator++;
+//		}
 	}
 }
