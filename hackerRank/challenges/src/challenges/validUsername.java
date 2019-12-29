@@ -11,9 +11,9 @@ package challenges;
 import java.util.Scanner;
 
 class UsernameRegex{
-	String regex = ("^[aA-zZ]\\w{7,29}$");
+	String regex = ("^[a-zA-Z]\\w{7,29}$");
 	
-	public static final String regularExpression = null;
+	public static final String regularExpression = ("^[aA-zZ]\\w{7,29}$");
 }
 
 public class validUsername{
